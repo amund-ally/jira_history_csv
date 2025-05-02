@@ -1,2 +1,4 @@
 jira_config.json
 *.csv
+debug*.log
+debug*.json
