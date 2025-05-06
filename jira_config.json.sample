@@ -1,0 +1,5 @@
+{
+   "jira_email": "YOUR JIRA EMAIL",
+   "jira_api_key": "A JIRA API KEY",
+   "jira_server": "YOUR JIRA INSTANCE BASE URL, e.g., https://yourcompany.atlassian.net/"
+}

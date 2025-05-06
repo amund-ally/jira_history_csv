@@ -7,8 +7,8 @@ from pathlib import Path
 # Configuration
 FILTER_ID = "23459"  # Replace with your filter ID
 CONFIG_FILE = "jira_config.json"
-STATUS_OUTPUT_FILE = f"jira_statushistory_{FILTER_ID}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
-ESTIMATE_OUTPUT_FILE = f"jira_estimate_history_{FILTER_ID}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+STATUS_OUTPUT_FILE = f"history_files/jira_statushistory_{FILTER_ID}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+ESTIMATE_OUTPUT_FILE = f"history_files/jira_estimate_history_{FILTER_ID}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
 
 def load_config():
     """Load Jira configuration from JSON file."""

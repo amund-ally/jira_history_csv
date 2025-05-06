@@ -2,3 +2,4 @@ jira_config.json
 *.csv
 debug*.log
 debug*.json
+.DS_Store
